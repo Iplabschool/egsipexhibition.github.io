@@ -1,1 +1,0 @@
-# egsscienceexibhition.github.io

@@ -1,3 +1,5 @@
+import cgitb
+cgitb.enable()
 #areaofcircle
 r=float(input("Enter radius of the circle:"))
 pi=3.14

@@ -81,3 +81,11 @@ r=float(input("Enter the radius of sphere:"))
 v=4*3.14*r*r*r/3
 print("Volume of sphere is",v)
 
+# eligibility age for voting in india 
+n=int(input("enter the age : "))
+if n>18:
+  print(n,"you are eligible for voting in India")
+else:
+  print(n,"you are not eligible for voting in India")
+  
+  

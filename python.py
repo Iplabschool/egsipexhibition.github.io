@@ -1,7 +1,8 @@
 import math
 import cgitb
 cgitb.enable()
-#areaofcircle
+
+#areaofcircle*
 r=float(input("Enter radius of the circle:"))
 pi=3.14
 a=pi*r*r
@@ -18,12 +19,35 @@ b=float(input("enter breadth of rectangle"))
 area of rectangle=l*b
 print("area of ractangle is: ",area of rectangle)
 
+#Area of triangle*
+b=int(input("Enter base of triangle:"))
+h=int(input("Enter height of triangle:"))
+a=1*b*h/2
+print("Area of triangle is",a)
+
+#Curved surface area of cylinder*
+r=int(input("Enter radius of cylinder:"))
+h=int(input("Enter height of cylinder:"))
+a=2*3.14*r*h
+print("Curved surface area of cylinder is",a)
+
+#Total surface area of cylinder*
+r=int(input("Enter radius of cylinder:"))
+h=int(input("Enter height of cylinder:"))
+a=(2*3.14*r*h)+(2*3.14*r*r)
+print("Total surface area of cylinder is",a)
+
 #volume of cuboid
 l=float(input("enter length of cuboid"))
 b=float(input("enter breadth ofcuboid"))
 h=float(input("enter height of cuboid"))
 volume of cuboid=l*b*h
 print("volume of cuboid",volume of cuboid)
+
+#Volume of sphere*
+r=float(input("Enter the radius of sphere:"))
+v=4*3.14*r*r*r/3
+print("Volume of sphere is",v)
 
 #gain list from user
 n=int(input("enter number of elements"))
@@ -75,11 +99,6 @@ else :
   else :
     min, mid, max = c,b,a
 print("numbers in ascending order are : ",min, mid, max)
-
-#Volume of sphere
-r=float(input("Enter the radius of sphere:"))
-v=4*3.14*r*r*r/3
-print("Volume of sphere is",v)
 
 # eligibility age for voting in india 
 n=int(input("enter the age : "))

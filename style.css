@@ -1,1 +1,40 @@
-
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,300&display=swap');
+      </style>
+    <style>
+     body{
+       background-color: rgb(130, 225, 180);
+       font-family: 'Grandstander', cursive;
+     }
+      h1{
+        font-style: italic;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-align: center;
+        mask-position: center;
+        color:rgb(20, 65, 120)
+      }
+   h2{
+      font-style: italic;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-align: center;
+        mask-position: right;
+        color:rgb(230, 110, 40)
+   }
+        header{
+         font-style: oblique;
+        font-size: normal;
+        font-weight: bolder;
+        text-align: left;
+        mask-position: left;
+        color:rgb(200, 100, 50)
+        }
+        h3{
+         font-style: oblique;
+        font-size: normal;
+        font-weight: bolder;
+        text-align: left;
+        mask-position: left;
+        color:rgb(90, 10, 30)
+        }

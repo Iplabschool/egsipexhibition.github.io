@@ -1,3 +1,4 @@
+import django
 import math
 import cgitb
 cgitb.enable()
